@@ -1,8 +1,6 @@
 version: 0.2
 phases:
-  install:
-  runtime-versions:
-      java: openjdk8
+
   pre_build:
    commands:
    - echo "Entered the prebuild phase"
@@ -14,7 +12,7 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase"
-      - mv target/deploye ./
+      - mv target/deploy ./
   artifacts:
      files:
        -deploy/**/*
