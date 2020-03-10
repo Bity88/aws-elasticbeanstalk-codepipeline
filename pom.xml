@@ -15,7 +15,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>aws-elasticbeanstalk-codepipeline</name>
     <description>Spring Boot wiith AWS CodePipeline and Elastic Beanstalk</description>
-    <packaging>war</packaging>
+
 
 
     <properties>
