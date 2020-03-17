@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloController {
 
-
     @GetMapping
 
     public String getMessage(){
-        return "Hello Im learning CICD in AWS. I am actually Sandeep";
+        return "Hello Im learning CICD in AWS. I am actually Sandeep. Thank you";
     }
 }
