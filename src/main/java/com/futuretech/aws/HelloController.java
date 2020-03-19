@@ -12,6 +12,6 @@ public class HelloController {
     @GetMapping
 
     public String getMessage(){
-        return "Hello Im learning CICD in AWS. I am actually Sandeep. Thank you";
+        return "Hello Im learning CICD in AWS. I am actually Sandeep.";
     }
 }
